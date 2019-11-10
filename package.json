@@ -1,0 +1,16 @@
+{
+  "name": "groups-for-netflix",
+  "version": "1.0.0",
+  "description": "Server to an app to manage groups of clients of netflix",
+  "main": "src/index.js",
+  "author": "Anderson David SF",
+	"license": "MIT",
+	"scripts": {
+		"start": "node src/index.js",
+		"dev": "nodemon src/index.js"
+	},
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1"
+  }
+}
