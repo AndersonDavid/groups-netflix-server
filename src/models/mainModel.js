@@ -2,6 +2,7 @@ const { Schema, model } = require('mongoose');
 
 const mainModel = new Schema({
 	name: String,
+	dateToPay: Number,
 	login: String,
 	clients: [
 		{
